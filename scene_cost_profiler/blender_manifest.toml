@@ -1,0 +1,24 @@
+schema_version = "1.0.0"
+id = "scene_cost_profiler"
+version = "1.0.0"
+name = "Scene Cost Profiler"
+tagline = "Analyze scene performance cost and optimize objects"
+maintainer = "tobiasgrab-repo"
+type = "add-on"
+blender_version_min = "4.2.0"
+license = ["SPDX:GPL-3.0-or-later"]
+website = "https://github.com/tobiasgrab-repo/scene-cost-profiler"
+tags = ["3D View"]
+copyright = ["2025-2026 tobiasgrab-repo"]
+
+[permissions]
+files = "Export JSON reports to disk"
+
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    "*.pyc",
+    ".git/",
+    ".gitignore",
+    "*.zip",
+]
