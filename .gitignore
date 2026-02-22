@@ -4,3 +4,5 @@ __pycache__/
 .claude/
 tasks/
 dist/
+test_scene.py
+requirements.md

@@ -7,10 +7,13 @@ Identify bottlenecks, visualize performance costs with heatmaps, and optimize yo
 ## Features
 
 - **Object-level cost scoring** — geometry, materials, textures, and modifiers analyzed individually
+- **Performance budgets** — set VRAM, triangle, and shader complexity limits, see violations at a glance
+- **Custom scoring weights** — tune how geometry, shader, modifier, and texture costs are balanced
 - **Heatmap visualization** — color-coded viewport overlay showing expensive objects at a glance
-- **One-click optimization** — non-destructive decimate modifiers applied to high-cost objects
+- **Optimization toolkit** — decimate, reduce subdivision, merge vertices, merge materials, apply modifiers
+- **Optimize to budget** — one click to bring over-budget objects into compliance
 - **Detailed breakdown panels** — drill into exactly what makes an object expensive
-- **JSON export** — save analysis reports for documentation or pipeline integration
+- **JSON and CSV export** — save analysis reports for documentation or pipeline integration
 - **Blender 4.2 LTS through 5.0+** — tested across current and upcoming releases
 
 ## Screenshots
